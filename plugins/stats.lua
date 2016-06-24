@@ -91,7 +91,7 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'sbss' then -- Put everything you like :)
+  if matches[1]:lower() == 'virus' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
     savelog(msg.to.id, name.." ["..msg.from.id.."] used /sbss ")
@@ -120,7 +120,7 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "sbss" then -- Put everything you like :)
+    if matches[2] == "virus" then -- Put everything you like :)
       if not is_admin(msg) then
         return "فقط برای ادمین ها !"
       else
@@ -141,8 +141,8 @@ return {
     "^(آمار)$",
     "^(لیست آمار)$",
     "^(امار) (گروه) (%d+)",
-    "^(امار) (sbss)",-- Put everything you like :)
-		"^[!/@#$%^&*()_+]([Ss]bss)"-- Put everything you like :)
+    "^(امار) (virus)",-- Put everything you like :)
+		"^[!/@#$%^&*()_+]([Vv]irus)"-- Put everything you like :)
     }, 
   run = run
 }
