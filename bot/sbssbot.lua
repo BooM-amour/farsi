@@ -239,24 +239,26 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {144658773,114934518,94746365},--Sudo users
+    sudo_users = {223216007,235549912},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V2 Beta
-    An Advanced Anti Spam Bot Forked On TeleSeed
-    
-    Develpoed By:
-    @sina7sk
-    Manager:
-    @yellowhat
-    Founder:
-    @amirho3in
-    
-    Special Thank To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
+    about_text = [[https://telegram.me/virus_tm
+@MR_VvIRusS [Founder] AmouR
+@Dev_TeleGram [Developer] ArshiA
+@WeinSteiN_Dev [Developer] ShayaN
+@mahdimasih [Manager] MahdI
+@FuckL1fe [Manager] RezA
+Special thanks to
+🎨  [photo&logo]
+       👾v⚜I🇮🇷R⚜us👾™
+Our channels
+@vIRus_TM [News]
+@unixweb_org [Server Shop]
+برای خرید سرور های مجازی به آدرس زیر مراحعه شود
+   😁
+👇  
+      website 
+www.Unixweb.Org
     
 ]],
     help_text_realm = [[
@@ -343,9 +345,7 @@ _________________________________________
 _________________________________________
 _________________________________________
 _________________________________________
-ليست سودوها :@Cia_00_07
-@sina7sk
-@amirho3in
+
 ]]
   }
   serialize_to_file(config, './data/config.lua')
